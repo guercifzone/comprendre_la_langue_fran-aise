@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Consonne"
+            android:textSize="50dp" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:columnCount="3"
+            android:rowCount="7">
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_b" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_c" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_d" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_f" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_g" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_h" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_j"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_j" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_k"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_k" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_l" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_m" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_n" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_p" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_q"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_q" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_r" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_s" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_t" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_v" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_w"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_w" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_x" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_y" />
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/letters_z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_z" />
+        </GridLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Voyelle"
+            android:textSize="50dp" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:columnCount="3"
+            android:rowCount="3">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_a" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_e" />
+
+            <pl.droidsonroids.gif.GifImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_i" />
+
+            <pl.droidsonroids.gif.GifImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_o" />
+
+            <pl.droidsonroids.gif.GifImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_u" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/letter_y" />
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
